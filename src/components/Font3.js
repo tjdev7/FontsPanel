@@ -3,29 +3,40 @@ import React from 'react'
 export default class Font3 extends React.Component {
     render() {
         return (
-            <div className="fontsContainer">
-                <h1 className="mainFont">Font 3</h1>
+            <div className="fontsContainer Font3Tab">
+                <h1 className="mainFont">Orbitron</h1>
 
                 <p className="fontDesc">
-                    About font 3: cies lobortis. Mauris leo ante, blandit sit
-                    amet malesuada quis, ultrices eu ex. Vestibulum vestibulum
-                    ligula nunc, quis faucibus neque molestie eget. Cras gravida
-                    semper hendrerit. Praesent ac metus in est cursus ultricies.
-                    Cras eu pulvinar lectus, eu molestie mauris. In imperdiet,
-                    tellus vel consequat commo
+                    About Orbitron: uris posuere mi volutpat magna rutrum, id
+                    placerat elit iaculis. Pellentesque ipsum nulla, egestas vel
+                    risus iaculis, elementum sollicitudin risus. Phasellus
+                    tristique semper eros, ut convallis nibh elementum vitae.
+                    Aliquam venenatis in nibh sed fringilla. Duis luctus
+                    molestie mi, a tempus nulla dapibus ut. Curabitur non
+                    vehicula quam. Etiam auctor semper felis, non lacinia felis
+                    pulvinar sed.
                 </p>
 
-                <h1>h1: A B C | a b c</h1>
+                <hr />
 
-                <h2>h2: A B C | a b c</h2>
+                <h1>h1: A B C D E F G H I J k l m n o p q r s t u v w x y z</h1>
+                <hr />
+                <h2>h2: A B C D E F G H I J k l m n o p q r s t u v w x y z</h2>
+                <hr />
 
-                <h3>h3: A B C | a b c</h3>
+                <h3>h3: A B C D E F G H I J k l m n o p q r s t u v w x y z</h3>
+                <hr />
 
-                <h4>h4: A B C | a b c</h4>
-                <h5>h5: A B C | a b c</h5>
-                <h6>h6: A B C | a b c</h6>
+                <h4>h4: A B C D E F G H I J k l m n o p q r s t u v w x y z</h4>
+                <hr />
 
-                <p>p: A B C | a b c</p>
+                <h5>h5: A B C D E F G H I J k l m n o p q r s t u v w x y z</h5>
+                <hr />
+
+                <h6>h6: A B C D E F G H I J k l m n o p q r s t u v w x y z</h6>
+                <hr />
+
+                <p>p: A B C D E F G H I J k l m n o p q r s t u v w x y z</p>
             </div>
         )
     }
