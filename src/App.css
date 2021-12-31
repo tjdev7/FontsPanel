@@ -1,6 +1,10 @@
-.App {
-    text-align: left;
-}
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron&family=Pacifico&family=Poiret+One&family=Quicksand&display=swap');
+
+/*
+----------------------------------------------
+            Menu styles
+----------------------------------------------
+*/
 
 li {
     font-size: 2rem;
@@ -9,12 +13,8 @@ li {
     padding: 0.5rem 2rem 0rem 2rem;
 }
 
-p {
-    font-size: 2rem;
-}
-
 ul {
-    background-color: #99ff6a;
+    background-color: #99ff6a6b;
     list-style-type: none;
     margin: 0rem;
     padding: 1rem 2rem 5rem 2rem;
@@ -24,12 +24,18 @@ ul {
     float: left;
 }
 
-.fontsContainer {
-    padding: 5rem;
+/*
+----------------------------------------------
+            Page styles
+----------------------------------------------
+*/
+
+.App {
+    text-align: left;
 }
 
-.mainFont {
-    font-size: 5.5rem;
+.fontsContainer {
+    padding: 5rem;
 }
 
 .fontDesc {
@@ -39,34 +45,84 @@ ul {
 .Font1Tab {
     background-color: cadetblue;
     color: #ffffff;
+    font-family: 'Michroma', sans-serif;
+    height: 100%;
 }
 
 .Font2Tab {
-    background-color: blueviolet;
+    background-color: #892be2c4;
     color: #ffffff;
+    font-family: 'Pushster', cursive;
+    height: 100%;
 }
 
 .Font3Tab {
-    background-color: cornsilk;
-    color: #ffffff;
+    background-color: #fff8dc;
+    color: #302929;
+    font-family: 'Orbitron', sans-serif;
+    height: 100%;
 }
 
 .Font4Tab {
-    background-color: darkturquoise;
-    color: #ffffff;
+    background-color: #00ced1;
+    color: #302929;
+    font-family: 'Comfortaa', cursive;
 }
 
 .Font5Tab {
-    background-color: coral;
+    background-color: #ff7f50;
     color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .Font6Tab {
-    background-color: #99ff6a;
+    background-color: #d42525d2;
     color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .Font7Tab {
-    background-color: gold;
-    color: #ffffff;
+    background-color: #ffd700;
+    color: #302929;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.mainFont {
+    margin-top: -2rem;
+    font-size: 5.5rem;
+}
+
+/*
+----------------------------------------------
+            Font styles
+----------------------------------------------
+*/
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3.3rem;
+}
+
+h3 {
+    font-size: 3.1rem;
+}
+
+h4 {
+    font-size: 2.9rem;
+}
+
+h5 {
+    font-size: 2.7rem;
+}
+
+h6 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 2rem;
 }

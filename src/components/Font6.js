@@ -3,29 +3,43 @@ import React from 'react'
 export default class Font6 extends React.Component {
     render() {
         return (
-            <div className="fontsContainer">
-                <h1 className="mainFont">Font 6</h1>
+            <div className="fontsContainer Font6Tab">
+                <h1 className="mainFont">Quicksand</h1>
 
                 <p className="fontDesc">
-                    About font 6: cies lobortis. Mauris leo ante, blandit sit
-                    amet malesuada quis, ultrices eu ex. Vestibulum vestibulum
-                    ligula nunc, quis faucibus neque molestie eget. Cras gravida
-                    semper hendrerit. Praesent ac metus in est cursus ultricies.
-                    Cras eu pulvinar lectus, eu molestie mauris. In imperdiet,
-                    tellus vel consequat commo
+                    About Quicksand: us lacinia euismod. Cras et luctus risus,
+                    id feugiat lectus. Integer arcu arcu, maximus quis dapibus
+                    in, rutrum id sapien. Morbi pulvinar, nisi aliquam pulvinar
+                    porta, dui leo dignissim mi, in venenatis justo ligula in
+                    orci. Suspendisse at laoreet ligula. Donec placerat sagittis
+                    egestas. Nunc a dictum ipsum, quis pretium magna. Donec ut
+                    purus sed ipsum convallis laoreet et sed odio. Aenean
+                    scelerisque sagittis nisi. finibus ipsum. Pellentesque metus
+                    ipsum, congue vel ante ut, rutrum ullamcorper tortor. Donec
+                    sollicitudin erat ac erat volutpat eleifend. Sed tincidunt
+                    orci urna, id varius nisl lacinia ac.
                 </p>
 
-                <h1>h1: A B C | a b c</h1>
+                <hr />
 
-                <h2>h2: A B C | a b c</h2>
+                <h1>h1: A B C D E F G H I J k l m n o p q r s t u v w x y z</h1>
+                <hr />
+                <h2>h2: A B C D E F G H I J k l m n o p q r s t u v w x y z</h2>
+                <hr />
 
-                <h3>h3: A B C | a b c</h3>
+                <h3>h3: A B C D E F G H I J k l m n o p q r s t u v w x y z</h3>
+                <hr />
 
-                <h4>h4: A B C | a b c</h4>
-                <h5>h5: A B C | a b c</h5>
-                <h6>h6: A B C | a b c</h6>
+                <h4>h4: A B C D E F G H I J k l m n o p q r s t u v w x y z</h4>
+                <hr />
 
-                <p>p: A B C | a b c</p>
+                <h5>h5: A B C D E F G H I J k l m n o p q r s t u v w x y z</h5>
+                <hr />
+
+                <h6>h6: A B C D E F G H I J k l m n o p q r s t u v w x y z</h6>
+                <hr />
+
+                <p>p: A B C D E F G H I J k l m n o p q r s t u v w x y z</p>
             </div>
         )
     }

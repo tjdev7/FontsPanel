@@ -19,31 +19,31 @@ function App() {
                 <BrowserRouter>
                     <ul>
                         <Link to="/HomePage">
-                            <li className="FontTabs">FontsHub</li>
+                            <li className="FontTabs">FontsPanel</li>
                         </Link>
 
                         <Link to="/Font1">
-                            <li className="FontTabs">Font 1</li>
+                            <li className="FontTabs">Michroma</li>
                         </Link>
                         <Link to="/Font2">
-                            <li className="FontTabs">Font 2</li>
+                            <li className="FontTabs">Pushster</li>
                         </Link>
 
                         <Link to="/Font3">
-                            <li className="FontTabs">Font 3</li>
+                            <li className="FontTabs">Orbitron</li>
                         </Link>
 
                         <Link to="/Font4">
-                            <li className="FontTabs">Font 4</li>
+                            <li className="FontTabs">Comfortaa</li>
                         </Link>
                         <Link to="/Font5">
-                            <li className="FontTabs">Font 5</li>
+                            <li className="FontTabs">Rajdhani</li>
                         </Link>
                         <Link to="/Font6">
-                            <li className="FontTabs">Font 6</li>
+                            <li className="FontTabs">Quicksand</li>
                         </Link>
                         <Link to="/Font7">
-                            <li className="FontTabs">Font 7</li>
+                            <li className="FontTabs">Poiret One</li>
                         </Link>
                     </ul>
 
