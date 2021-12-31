@@ -1,0 +1,72 @@
+.App {
+    text-align: left;
+}
+
+li {
+    font-size: 2rem;
+    color: #000000;
+    display: inline;
+    padding: 0.5rem 2rem 0rem 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+ul {
+    background-color: #99ff6a;
+    list-style-type: none;
+    margin: 0rem;
+    padding: 1rem 2rem 5rem 2rem;
+}
+
+.FontTabs {
+    float: left;
+}
+
+.fontsContainer {
+    padding: 5rem;
+}
+
+.mainFont {
+    font-size: 5.5rem;
+}
+
+.fontDesc {
+    font-size: 2.5rem;
+}
+
+.Font1Tab {
+    background-color: cadetblue;
+    color: #ffffff;
+}
+
+.Font2Tab {
+    background-color: blueviolet;
+    color: #ffffff;
+}
+
+.Font3Tab {
+    background-color: cornsilk;
+    color: #ffffff;
+}
+
+.Font4Tab {
+    background-color: darkturquoise;
+    color: #ffffff;
+}
+
+.Font5Tab {
+    background-color: coral;
+    color: #ffffff;
+}
+
+.Font6Tab {
+    background-color: #99ff6a;
+    color: #ffffff;
+}
+
+.Font7Tab {
+    background-color: gold;
+    color: #ffffff;
+}
