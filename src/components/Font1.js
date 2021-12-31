@@ -3,29 +3,37 @@ import React from 'react'
 export default class Font1 extends React.Component {
     render() {
         return (
-            <div className="fontsContainer">
-                <h1 className="mainFont">Font 1</h1>
+            <div className="fontsContainer Font1Tab">
+                <h1 className="mainFont">Michroma</h1>
 
                 <p className="fontDesc">
-                    About font 1: cies lobortis. Mauris leo ante, blandit sit
+                    About Michroma: cies lobortis. Mauris leo ante, blandit sit
                     amet malesuada quis, ultrices eu ex. Vestibulum vestibulum
                     ligula nunc, quis faucibus neque molestie eget. Cras gravida
                     semper hendrerit. Praesent ac metus in est cursus ultricies.
                     Cras eu pulvinar lectus, eu molestie mauris. In imperdiet,
                     tellus vel consequat commo
                 </p>
+                <hr />
 
-                <h1>h1: A B C | a b c</h1>
+                <h1>h1: A B C D E F G H I J k l m n o p q r s t u v w x y z</h1>
+                <hr />
+                <h2>h2: A B C D E F G H I J k l m n o p q r s t u v w x y z</h2>
+                <hr />
 
-                <h2>h2: A B C | a b c</h2>
+                <h3>h3: A B C D E F G H I J k l m n o p q r s t u v w x y z</h3>
+                <hr />
 
-                <h3>h3: A B C | a b c</h3>
+                <h4>h4: A B C D E F G H I J k l m n o p q r s t u v w x y z</h4>
+                <hr />
 
-                <h4>h4: A B C | a b c</h4>
-                <h5>h5: A B C | a b c</h5>
-                <h6>h6: A B C | a b c</h6>
+                <h5>h5: A B C D E F G H I J k l m n o p q r s t u v w x y z</h5>
+                <hr />
 
-                <p>p: A B C | a b c</p>
+                <h6>h6: A B C D E F G H I J k l m n o p q r s t u v w x y z</h6>
+                <hr />
+
+                <p>p: A B C D E F G H I J k l m n o p q r s t u v w x y z</p>
             </div>
         )
     }
