@@ -1,20 +1,22 @@
 import React from 'react'
 
-export default class Font3 extends React.Component {
+export default class Font2Tab extends React.Component {
     render() {
         return (
-            <div className="fontsContainer Font3Tab">
-                <h1 className="mainFont">Orbitron</h1>
+            <div className="fontsContainer Font2Tab">
+                <h1 className="mainFont">Pushster</h1>
 
                 <p className="fontDesc">
-                    About Orbitron: uris posuere mi volutpat magna rutrum, id
-                    placerat elit iaculis. Pellentesque ipsum nulla, egestas vel
-                    risus iaculis, elementum sollicitudin risus. Phasellus
-                    tristique semper eros, ut convallis nibh elementum vitae.
-                    Aliquam venenatis in nibh sed fringilla. Duis luctus
-                    molestie mi, a tempus nulla dapibus ut. Curabitur non
-                    vehicula quam. Etiam auctor semper felis, non lacinia felis
-                    pulvinar sed.
+                    About Pushster: us neque eget. Cras gravida semper
+                    hendrerit. Praesent ac metus in est cursus ultricies. Cras
+                    eu pulvinar lectus, eu molestie mauris. In imperdiet, tellus
+                    vel consequat commodo, metus ante ullamcorper libero, in
+                    faucibus diam odio in urna. Praesent nec nunc id risus
+                    tristique ullamcorper. Integer nisi magna, vulputate
+                    ullamcorper massa quis, pretium semper erat. Cras a neque
+                    turpis. Nam efficitur nulla nec velit tempus, vitae feugiat
+                    erat porta. Pellentesque a est fermentum, tempus enim at,
+                    dictum dui.
                 </p>
 
                 <hr />

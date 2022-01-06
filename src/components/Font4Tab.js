@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default class Font4 extends React.Component {
+export default class Font4Tab extends React.Component {
     render() {
         return (
             <div className="fontsContainer Font4Tab">
