@@ -14,8 +14,7 @@ Small React app showcasing fonts I commonly use
 
 ## Testing tools used for app:
 
--   React Testing library
--   Jest
--   Cypress
--   TravisCI
--   CircleCI
+-   React Testing library and Jest for testing components
+-   TravisCI and CircleCI for CI/CD development
+-   Prettier for keeping all code formatted and organized
+
