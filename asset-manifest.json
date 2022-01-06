@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FontsPanel/static/css/main.afe94c18.css",
-    "main.js": "/FontsPanel/static/js/main.76972ba9.js",
+    "main.js": "/FontsPanel/static/js/main.e882c7af.js",
     "static/js/787.2919fe58.chunk.js": "/FontsPanel/static/js/787.2919fe58.chunk.js",
     "index.html": "/FontsPanel/index.html",
     "main.afe94c18.css.map": "/FontsPanel/static/css/main.afe94c18.css.map",
-    "main.76972ba9.js.map": "/FontsPanel/static/js/main.76972ba9.js.map",
+    "main.e882c7af.js.map": "/FontsPanel/static/js/main.e882c7af.js.map",
     "787.2919fe58.chunk.js.map": "/FontsPanel/static/js/787.2919fe58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afe94c18.css",
-    "static/js/main.76972ba9.js"
+    "static/js/main.e882c7af.js"
   ]
 }
