@@ -1,19 +1,14 @@
 {
     "name": "FontsPanel",
-    "short_name": "Small React app showcasing fonts I commonly use ",
+    "short_name": "Small React app showcasing fonts I commonly use",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-384x384.png",
-            "sizes": "384x384",
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
             "type": "image/png"
         }
     ],
-    "theme_color": "#99ff6a6b",
+    "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
 }

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FontsPanel/static/css/main.afe94c18.css",
-    "main.js": "/FontsPanel/static/js/main.e882c7af.js",
-    "static/js/787.2919fe58.chunk.js": "/FontsPanel/static/js/787.2919fe58.chunk.js",
+    "main.css": "/FontsPanel/static/css/main.2d8341ab.css",
+    "main.js": "/FontsPanel/static/js/main.ec09fa7d.js",
+    "static/js/787.267ec2b3.chunk.js": "/FontsPanel/static/js/787.267ec2b3.chunk.js",
     "index.html": "/FontsPanel/index.html",
-    "main.afe94c18.css.map": "/FontsPanel/static/css/main.afe94c18.css.map",
-    "main.e882c7af.js.map": "/FontsPanel/static/js/main.e882c7af.js.map",
-    "787.2919fe58.chunk.js.map": "/FontsPanel/static/js/787.2919fe58.chunk.js.map"
+    "main.2d8341ab.css.map": "/FontsPanel/static/css/main.2d8341ab.css.map",
+    "main.ec09fa7d.js.map": "/FontsPanel/static/js/main.ec09fa7d.js.map",
+    "787.267ec2b3.chunk.js.map": "/FontsPanel/static/js/787.267ec2b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe94c18.css",
-    "static/js/main.e882c7af.js"
+    "static/css/main.2d8341ab.css",
+    "static/js/main.ec09fa7d.js"
   ]
 }
