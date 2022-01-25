@@ -19,7 +19,9 @@ function App() {
                 <BrowserRouter>
                     <ul>
                         <Link to="/HomePage">
-                            <li className="FontTabs"><strong>FontsPanel</strong></li>
+                            <li className="FontTabs">
+                                <strong>FontsPanel</strong>
+                            </li>
                         </Link>
 
                         <Link to="/Font1Tab">

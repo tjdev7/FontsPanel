@@ -1,7 +1,7 @@
 {
   "name": "fontspanel",
   "homepage": "https://toughee.github.io/FontsPanel/",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -23,10 +23,10 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "npm run build&&gh-pages -d build",
-    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'&&npx prettier --write '**/*.md'",
+    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
     "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
     "fullpr": "git add .&&git commit&&git push&&git merge",
-    "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix"
+    "audits": "yarn install&&npm-update-all&&npm install react-scripts@latest&&npm audit&&npm audit fix"
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +46,11 @@
       "last 1 safari version"
     ],
     "License": "MIT"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "2.4.5"
+  },
+  "resolutions": {
+    "mini-css-extract-plugin": "2.4.5"
   }
 }

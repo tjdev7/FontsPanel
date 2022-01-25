@@ -1,6 +1,6 @@
 ![App logo](./public/img/panel_logo.png)
 
-# FontsHub
+# FontsPanel
 
 Small React app showcasing fonts I commonly use
 
@@ -18,3 +18,12 @@ Small React app showcasing fonts I commonly use
 -   TravisCI and CircleCI for CI/CD development
 -   Prettier for keeping all code formatted and organized
 
+
+### Completed app tasks:
+
+- [x] Include CircleCI and Travis-CI inside project
+- [x] Improve U.I. design for app
+- [x] Add testing scripts for each component
+### Future app goals:
+
+- [ ] Improve current testing scripts inside app 
