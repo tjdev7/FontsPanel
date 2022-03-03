@@ -24,6 +24,7 @@ Small React app showcasing fonts I commonly use
 - [x] Include CircleCI and Travis-CI inside project
 - [x] Improve U.I. design for app
 - [x] Add testing scripts for each component
+
 ### Future app goals:
 
 - [ ] Improve current testing scripts inside app 

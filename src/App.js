@@ -15,56 +15,51 @@ import './App.css'
 function App() {
     return (
         <div className="App">
-            <header>
-                <BrowserRouter>
-                    <ul>
-                        <Link to="/HomePage">
-                            <li className="FontTabs">
-                                <strong>FontsPanel</strong>
-                            </li>
-                        </Link>
+            <BrowserRouter>
+                <details>
+                    <summary>☰</summary>
+                    <p>
+                        <strong>Home</strong>
+                    </p>
+                    <Link to="/Font1Tab">
+                        <p className="FontTabs">Michroma</p>
+                    </Link>
 
-                        <Link to="/Font1Tab">
-                            <li className="FontTabs">Michroma</li>
-                        </Link>
-                        <Link to="/Font2Tab">
-                            <li className="FontTabs">Pushster</li>
-                        </Link>
+                    <Link to="/Font2Tab">
+                        <p className="FontTabs">Pushster</p>
+                    </Link>
+                    <Link to="/Font3Tab">
+                        <p className="FontTabs">Orbitron</p>
+                    </Link>
+                    <Link to="/Font4Tab">
+                        <p className="FontTabs">Comfortaa</p>
+                    </Link>
+                    <Link to="/Font5Tab">
+                        <p className="FontTabs">Rajdhani</p>
+                    </Link>
+                    <Link to="/Font6Tab">
+                        <p className="FontTabs">Quicksand</p>
+                    </Link>
+                    <Link to="/Font7Tab">
+                        <p className="FontTabs">Poiret One</p>
+                    </Link>
+                </details>
 
-                        <Link to="/Font3Tab">
-                            <li className="FontTabs">Orbitron</li>
-                        </Link>
+                <Routes>
+                    <Route path="/HomePage" element={<HomePage />} />
+                    <Route path="/Font1Tab" element={<Font1Tab />} />
+                    <Route path="/Font2Tab" element={<Font2Tab />} />
 
-                        <Link to="/Font4Tab">
-                            <li className="FontTabs">Comfortaa</li>
-                        </Link>
-                        <Link to="/Font5Tab">
-                            <li className="FontTabs">Rajdhani</li>
-                        </Link>
-                        <Link to="/Font6Tab">
-                            <li className="FontTabs">Quicksand</li>
-                        </Link>
-                        <Link to="/Font7Tab">
-                            <li className="FontTabs">Poiret One</li>
-                        </Link>
-                    </ul>
+                    <Route path="/Font3Tab" element={<Font3Tab />} />
+                    <Route path="/Font4Tab" element={<Font4Tab />} />
 
-                    <Routes>
-                        <Route path="/HomePage" element={<HomePage />} />
-                        <Route path="/Font1Tab" element={<Font1Tab />} />
-                        <Route path="/Font2Tab" element={<Font2Tab />} />
+                    <Route path="/Font5Tab" element={<Font5Tab />} />
 
-                        <Route path="/Font3Tab" element={<Font3Tab />} />
-                        <Route path="/Font4Tab" element={<Font4Tab />} />
+                    <Route path="/Font6Tab" element={<Font6Tab />} />
 
-                        <Route path="/Font5Tab" element={<Font5Tab />} />
-
-                        <Route path="/Font6Tab" element={<Font6Tab />} />
-
-                        <Route path="/Font7Tab" element={<Font7Tab />} />
-                    </Routes>
-                </BrowserRouter>
-            </header>
+                    <Route path="/Font7Tab" element={<Font7Tab />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     )
 }
