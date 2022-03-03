@@ -15,55 +15,51 @@ import './App.css'
 function App() {
     return (
         <div className="App">
-            
-                <BrowserRouter>
+            <BrowserRouter>
                 <details>
-        <summary>☰</summary>
-        <p><strong>Home</strong></p>
-        <Link to="/Font1Tab">
-        <p className="FontTabs">Michroma</p>
-        </Link>
+                    <summary>☰</summary>
+                    <p>
+                        <strong>Home</strong>
+                    </p>
+                    <Link to="/Font1Tab">
+                        <p className="FontTabs">Michroma</p>
+                    </Link>
 
-        <Link to="/Font2Tab">
-        <p className="FontTabs">Pushster</p>
-        </Link>
-        <Link to="/Font3Tab">
-        <p className="FontTabs">Orbitron</p>
-        </Link>
-        <Link to="/Font4Tab">
-        <p className="FontTabs">Comfortaa</p>
-        </Link>
-        <Link to="/Font5Tab">
-        <p className="FontTabs">Rajdhani</p>
-        </Link>
-        <Link to="/Font6Tab">
-        <p className="FontTabs">Quicksand</p>
-        </Link>
-        <Link to="/Font7Tab">
-        <p className="FontTabs">Poiret One</p>
-        </Link>
-
-
-
+                    <Link to="/Font2Tab">
+                        <p className="FontTabs">Pushster</p>
+                    </Link>
+                    <Link to="/Font3Tab">
+                        <p className="FontTabs">Orbitron</p>
+                    </Link>
+                    <Link to="/Font4Tab">
+                        <p className="FontTabs">Comfortaa</p>
+                    </Link>
+                    <Link to="/Font5Tab">
+                        <p className="FontTabs">Rajdhani</p>
+                    </Link>
+                    <Link to="/Font6Tab">
+                        <p className="FontTabs">Quicksand</p>
+                    </Link>
+                    <Link to="/Font7Tab">
+                        <p className="FontTabs">Poiret One</p>
+                    </Link>
                 </details>
 
+                <Routes>
+                    <Route path="/HomePage" element={<HomePage />} />
+                    <Route path="/Font1Tab" element={<Font1Tab />} />
+                    <Route path="/Font2Tab" element={<Font2Tab />} />
 
-                    <Routes>
-                        <Route path="/HomePage" element={<HomePage />} />
-                        <Route path="/Font1Tab" element={<Font1Tab />} />
-                        <Route path="/Font2Tab" element={<Font2Tab />} />
+                    <Route path="/Font3Tab" element={<Font3Tab />} />
+                    <Route path="/Font4Tab" element={<Font4Tab />} />
 
-                        <Route path="/Font3Tab" element={<Font3Tab />} />
-                        <Route path="/Font4Tab" element={<Font4Tab />} />
+                    <Route path="/Font5Tab" element={<Font5Tab />} />
 
-                        <Route path="/Font5Tab" element={<Font5Tab />} />
+                    <Route path="/Font6Tab" element={<Font6Tab />} />
 
-                        <Route path="/Font6Tab" element={<Font6Tab />} />
-
-                        <Route path="/Font7Tab" element={<Font7Tab />} />
-                    </Routes>
-                </BrowserRouter>
-           
+                    <Route path="/Font7Tab" element={<Font7Tab />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     )
 }

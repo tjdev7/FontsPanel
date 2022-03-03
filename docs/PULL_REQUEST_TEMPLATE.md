@@ -22,5 +22,5 @@
 
 <!---
 Example:
-Fix|Update for FontsHub/repository_name/PR-Number/name_of_fix
+Fix|Update for FontsPanel/repository_name/PR-Number/name_of_fix
 --->
