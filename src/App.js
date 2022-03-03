@@ -15,39 +15,38 @@ import './App.css'
 function App() {
     return (
         <div className="App">
-            <header>
+            
                 <BrowserRouter>
-                    <ul>
-                        <Link to="/HomePage">
-                            <li className="FontTabs">
-                                <strong>FontsPanel</strong>
-                            </li>
-                        </Link>
+                <details>
+        <summary>☰</summary>
+        <p><strong>Home</strong></p>
+        <Link to="/Font1Tab">
+        <p className="FontTabs">Michroma</p>
+        </Link>
 
-                        <Link to="/Font1Tab">
-                            <li className="FontTabs">Michroma</li>
-                        </Link>
-                        <Link to="/Font2Tab">
-                            <li className="FontTabs">Pushster</li>
-                        </Link>
+        <Link to="/Font2Tab">
+        <p className="FontTabs">Pushster</p>
+        </Link>
+        <Link to="/Font3Tab">
+        <p className="FontTabs">Orbitron</p>
+        </Link>
+        <Link to="/Font4Tab">
+        <p className="FontTabs">Comfortaa</p>
+        </Link>
+        <Link to="/Font5Tab">
+        <p className="FontTabs">Rajdhani</p>
+        </Link>
+        <Link to="/Font6Tab">
+        <p className="FontTabs">Quicksand</p>
+        </Link>
+        <Link to="/Font7Tab">
+        <p className="FontTabs">Poiret One</p>
+        </Link>
 
-                        <Link to="/Font3Tab">
-                            <li className="FontTabs">Orbitron</li>
-                        </Link>
 
-                        <Link to="/Font4Tab">
-                            <li className="FontTabs">Comfortaa</li>
-                        </Link>
-                        <Link to="/Font5Tab">
-                            <li className="FontTabs">Rajdhani</li>
-                        </Link>
-                        <Link to="/Font6Tab">
-                            <li className="FontTabs">Quicksand</li>
-                        </Link>
-                        <Link to="/Font7Tab">
-                            <li className="FontTabs">Poiret One</li>
-                        </Link>
-                    </ul>
+
+                </details>
+
 
                     <Routes>
                         <Route path="/HomePage" element={<HomePage />} />
@@ -64,7 +63,7 @@ function App() {
                         <Route path="/Font7Tab" element={<Font7Tab />} />
                     </Routes>
                 </BrowserRouter>
-            </header>
+           
         </div>
     )
 }

@@ -20,8 +20,27 @@ ul {
     padding: 1rem 2rem 5rem 2rem;
 }
 
-.FontTabs {
+.FontTabs,
+a:link {
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+
+    
+}
+
+details {
+    background-color: #3a3a3a;
+    /* height: 50rem; */
+    width: 18%;
+    z-index: auto;
     float: left;
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    list-style-type: none;
+    display: inline;
 }
 
 /*
@@ -42,25 +61,35 @@ ul {
     font-size: 2.5rem;
 }
 
+.Font1Tab,
+.Font2Tab,
+.Font3Tab,
+.Font4Tab,
+.Font5Tab,
+.Font6Tab,
+.Font7Tab {
+    height: 100%;
+    text-align: right;
+    z-index: -1;
+    position: relative;
+}
+
 .Font1Tab {
     background-color: cadetblue;
     color: #ffffff;
     font-family: 'Michroma', sans-serif;
-    height: 100%;
 }
 
 .Font2Tab {
     background-color: #892be2c4;
     color: #ffffff;
     font-family: 'Pushster', cursive;
-    height: 100%;
 }
 
 .Font3Tab {
     background-color: #fff8dc;
     color: #302929;
     font-family: 'Orbitron', sans-serif;
-    height: 100%;
 }
 
 .Font4Tab {
