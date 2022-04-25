@@ -17,7 +17,7 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <details>
-                    <summary>☰</summary>
+                    <summary> FontsPanel</summary>
                     <p>
                         <strong>Home</strong>
                     </p>
