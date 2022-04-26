@@ -7,11 +7,11 @@ export default class Font2Tab extends React.Component {
                 <h1 className="mainFont">Pushster</h1>
 
                 <p className="fontDesc">
-                    About Pushster: us neque eget. Cras gravida semper
-                    hendrerit. Praesent ac metus in est cursus ultricies. Cras
-                    eu pulvinar lectus, eu molestie mauris. In imperdiet, tellus
-                    vel consequat commodo, metus ante ullamcorper libero, in
-                    faucibus diam odio in urna. Praesent nec nunc id risus
+                    <strong>About Pushster:</strong> us neque eget. Cras gravida
+                    semper hendrerit. Praesent ac metus in est cursus ultricies.
+                    Cras eu pulvinar lectus, eu molestie mauris. In imperdiet,
+                    tellus vel consequat commodo, metus ante ullamcorper libero,
+                    in faucibus diam odio in urna. Praesent nec nunc id risus
                     tristique ullamcorper. Integer nisi magna, vulputate
                     ullamcorper massa quis, pretium semper erat. Cras a neque
                     turpis. Nam efficitur nulla nec velit tempus, vitae feugiat

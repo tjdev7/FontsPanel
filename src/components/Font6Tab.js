@@ -7,17 +7,18 @@ export default class Font6Tab extends React.Component {
                 <h1 className="mainFont">Quicksand</h1>
 
                 <p className="fontDesc">
-                    About Quicksand: us lacinia euismod. Cras et luctus risus,
-                    id feugiat lectus. Integer arcu arcu, maximus quis dapibus
-                    in, rutrum id sapien. Morbi pulvinar, nisi aliquam pulvinar
-                    porta, dui leo dignissim mi, in venenatis justo ligula in
-                    orci. Suspendisse at laoreet ligula. Donec placerat sagittis
-                    egestas. Nunc a dictum ipsum, quis pretium magna. Donec ut
-                    purus sed ipsum convallis laoreet et sed odio. Aenean
-                    scelerisque sagittis nisi. finibus ipsum. Pellentesque metus
-                    ipsum, congue vel ante ut, rutrum ullamcorper tortor. Donec
-                    sollicitudin erat ac erat volutpat eleifend. Sed tincidunt
-                    orci urna, id varius nisl lacinia ac.
+                    <strong>About Quicksand:</strong> us lacinia euismod. Cras
+                    et luctus risus, id feugiat lectus. Integer arcu arcu,
+                    maximus quis dapibus in, rutrum id sapien. Morbi pulvinar,
+                    nisi aliquam pulvinar porta, dui leo dignissim mi, in
+                    venenatis justo ligula in orci. Suspendisse at laoreet
+                    ligula. Donec placerat sagittis egestas. Nunc a dictum
+                    ipsum, quis pretium magna. Donec ut purus sed ipsum
+                    convallis laoreet et sed odio. Aenean scelerisque sagittis
+                    nisi. finibus ipsum. Pellentesque metus ipsum, congue vel
+                    ante ut, rutrum ullamcorper tortor. Donec sollicitudin erat
+                    ac erat volutpat eleifend. Sed tincidunt orci urna, id
+                    varius nisl lacinia ac.
                 </p>
 
                 <hr />

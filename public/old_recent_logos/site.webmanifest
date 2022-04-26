@@ -1,6 +1,6 @@
 {
     "name": "FontsPanel",
-    "short_name": "Small React app showcasing commonly used apps for my projects and apps",
+    "short_name": "Small React app showcasing fonts I commonly use",
     "icons": [
         {
             "src": "/android-chrome-96x96.png",
@@ -8,7 +8,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#3A3A3A",
+    "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
 }

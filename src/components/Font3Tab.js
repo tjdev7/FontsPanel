@@ -7,14 +7,14 @@ export default class Font3Tab extends React.Component {
                 <h1 className="mainFont">Orbitron</h1>
 
                 <p className="fontDesc">
-                    About Orbitron: uris posuere mi volutpat magna rutrum, id
-                    placerat elit iaculis. Pellentesque ipsum nulla, egestas vel
-                    risus iaculis, elementum sollicitudin risus. Phasellus
-                    tristique semper eros, ut convallis nibh elementum vitae.
-                    Aliquam venenatis in nibh sed fringilla. Duis luctus
-                    molestie mi, a tempus nulla dapibus ut. Curabitur non
-                    vehicula quam. Etiam auctor semper felis, non lacinia felis
-                    pulvinar sed.
+                    <strong>About Orbitron:</strong> uris posuere mi volutpat
+                    magna rutrum, id placerat elit iaculis. Pellentesque ipsum
+                    nulla, egestas vel risus iaculis, elementum sollicitudin
+                    risus. Phasellus tristique semper eros, ut convallis nibh
+                    elementum vitae. Aliquam venenatis in nibh sed fringilla.
+                    Duis luctus molestie mi, a tempus nulla dapibus ut.
+                    Curabitur non vehicula quam. Etiam auctor semper felis, non
+                    lacinia felis pulvinar sed.
                 </p>
 
                 <hr />

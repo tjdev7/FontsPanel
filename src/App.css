@@ -1,23 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron&family=Pacifico&family=Poiret+One&family=Quicksand&display=swap');
 
-/*
-----------------------------------------------
-            Menu styles
-----------------------------------------------
-*/
-
 li {
     font-size: 2rem;
-    color: #ffffff;
-    display: inline;
-    padding: 0.5rem 2rem 0rem 2rem;
+    color: #020101;
 }
 
 ul {
-    background-color: #3a3a3a;
-    list-style-type: none;
+    background-color: #ffffff;
     margin: 0rem;
-    padding: 1rem 2rem 5rem 2rem;
 }
 
 .FontTabs,
@@ -27,23 +17,20 @@ a:link {
     text-decoration: none;
 }
 
-details {
-    background-color: #3a3a3a;
-    /* height: 50rem; */
-    width: 18%;
-    z-index: auto;
-    float: left;
-    color: #ffffff;
+.FontTabs,
+a:link {
+    color: #020101;
     font-size: 2rem;
     text-decoration: none;
-    padding: 2rem;
-    list-style-type: none;
-    display: inline;
+}
+
+strong {
+    font-size: 3.2rem;
 }
 
 /*
 ----------------------------------------------
-            Page styles
+            Page and fonts styles
 ----------------------------------------------
 */
 
@@ -67,7 +54,7 @@ details {
 .Font6Tab,
 .Font7Tab {
     height: 100%;
-    text-align: right;
+    text-align: left;
     z-index: -1;
     position: relative;
 }
@@ -79,13 +66,13 @@ details {
 }
 
 .Font2Tab {
-    background-color: #892be2c4;
+    background-color: #e22babc4;
     color: #ffffff;
     font-family: 'Pushster', cursive;
 }
 
 .Font3Tab {
-    background-color: #fff8dc;
+    background-color: #33f07f;
     color: #302929;
     font-family: 'Orbitron', sans-serif;
 }
@@ -117,7 +104,8 @@ details {
 
 .mainFont {
     margin-top: -2rem;
-    font-size: 5.5rem;
+    font-size: 3rem;
+    text-align: left;
 }
 
 /*
@@ -152,4 +140,235 @@ h6 {
 
 p {
     font-size: 1.8rem;
+}
+
+#mainMenu {
+    width: auto;
+    display: block;
+    text-align: center;
+    line-height: 1.2;
+}
+#mainMenu ul {
+    width: auto;
+    display: block;
+    font-size: 0;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    border: transparent;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    z-index: 999999990;
+    border-radius: 3px;
+}
+
+#mainMenu li {
+    display: inline-block;
+    position: relative;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*Top level items
+---------------------------------------*/
+
+#mainMenu > ul > li > span,
+#mainMenu > ul > li > a {
+    font-size: 22px;
+    color: inherit;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    position: relative;
+    transition: all 0.3s;
+}
+#mainMenu li:hover > span,
+#mainMenu li:hover > a {
+    color: #ffffff;
+    background-color: #3a3a3a;
+}
+
+/*Sub level items
+---------------------------------------*/
+#mainMenu .dropdown {
+    text-align: left;
+    left: 0;
+    font-family: inherit;
+    color: #222222;
+    background-color: #ffffff;
+    border: none;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: none;
+    opacity: 0;
+    cursor: default;
+}
+
+#mainMenu .dropdown li {
+    display: block;
+}
+
+#mainMenu .dropdown li > span,
+#mainMenu .dropdown li > a,
+#mainMenu .clm a,
+#mainMenu .clm h3 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    margin: 0;
+    padding: 8px 20px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+#mainMenu .clm h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+#mainMenu .sub-item {
+    background-color: #ffffff;
+    position: relative;
+    transition: all 0.3s;
+}
+
+#mainMenu .dropdown li:hover > span,
+#mainMenu .dropdown li:hover > a {
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+#mainMenu .clm a:hover {
+    color: #000000;
+    transition: color 0.2s;
+}
+
+#mainMenu .dropdown.right0 {
+    left: auto;
+    right: 0;
+}
+#mainMenu .dropdown li > .dropdown.right0 {
+    left: auto;
+    right: 100%;
+}
+
+#mainMenu li.full-width {
+    position: static;
+}
+#mainMenu li.full-width .dropdown {
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+}
+
+#mainMenu li:hover > .dropdown {
+    display: block;
+    opacity: 1;
+    z-index: 1;
+}
+
+#mainMenu .dropdown li > .dropdown {
+    left: 100%;
+    right: auto;
+    top: 0;
+}
+
+#mainMenu ul.dropdown {
+    min-width: 240px;
+}
+
+#mainMenu div.dropdown {
+    text-align: center;
+}
+
+#mainMenu .clm {
+    text-align: left;
+    margin: 20px;
+    vertical-align: top; /*or middle*/
+    width: auto;
+    min-width: 240px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+#mainMenu .clm a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#mainMenu .arrow {
+    color: inherit;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    padding: 5px;
+    transform: rotate(135deg);
+    margin-top: -10px;
+    margin-left: 5px;
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    overflow: hidden; /*for IE6*/
+}
+
+#mainMenu .dropdown .arrow {
+    transform: rotate(45deg);
+    top: 50%;
+    margin-top: -7px;
+    position: absolute;
+    left: auto;
+    right: 20px;
+}
+
+@keyframes topItemAnimation {
+    from {
+        opacity: 0;
+        transform: translate3d(-16%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+#mainMenu li a {
+    animation: none;
+}
+#mainMenu.active li a {
+    animation: topItemAnimation 0.5s ease 0.5s backwards;
+}
+#mainMenu.active li:nth-of-type(1) a {
+    animation: topItemAnimation 0.5s ease 0.08333333333333333s backwards;
+}
+#mainMenu.active li:nth-of-type(2) a {
+    animation: topItemAnimation 0.5s ease 0.16666666666666666s backwards;
+}
+#mainMenu.active li:nth-of-type(3) a {
+    animation: topItemAnimation 0.5s ease 0.25s backwards;
+}
+#mainMenu.active li:nth-of-type(4) a {
+    animation: topItemAnimation 0.5s ease 0.3333333333333333s backwards;
+}
+#mainMenu.active li:nth-of-type(5) a {
+    animation: topItemAnimation 0.5s ease 0.4166666666666667s backwards;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #mainMenu.active li a {
+        animation: none !important;
+    }
+}
+
+body {
+    margin: 0;
+    background: #ffffff;
+}
+#menuDiv {
+    text-align: center;
+    padding: 30px 8px;
 }

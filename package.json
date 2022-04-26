@@ -1,7 +1,11 @@
 {
   "name": "fontspanel",
   "homepage": "https://toughee.github.io/FontsPanel/",
+<<<<<<< HEAD
+  "version": "4.0.0",
+=======
   "version": "3.1.2",
+>>>>>>> main
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

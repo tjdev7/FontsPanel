@@ -1,11 +1,17 @@
-![App logo](./public/img/panel_logo.png)
+![App logo](./public/img/fontspanel_logo.png)
 
 # FontsPanel
 
-Small React app showcasing fonts I commonly use
+Small React app showcasing fonts I regularly use for projects and apps. Fully responsive for most user devices and platform
 
-![Splash page](./public/img/fontspanel_splash.png)
+### Desktop display
+![Splash page](./public/img/fontspanel_splash_desktop.png)
 
+### Mobile display
+![Splash page](./public/img/fontspanel_splash_mobile.png)
+
+### Tablet display
+![Splash page](./public/img/fontspanel_splash_tablet.png)
 ## How to use:
 
 1. Clone repo into desired directory `git clone https://github.com/Toughee/FontsPanel.git` or `gh repo clone Toughee/FontsPanel`
@@ -23,6 +29,7 @@ Small React app showcasing fonts I commonly use
 
 - [x] Include CircleCI and Travis-CI inside project
 - [x] Improve U.I. design for app
+- [x] Update menu and make app responsive on majority of user platforms and devices
 - [x] Add testing scripts for each component
 
 ### Future app goals:

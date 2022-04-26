@@ -16,6 +16,17 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
+<<<<<<< HEAD
+                <div id="menuDiv">
+                    <div id="mainMenu">
+                        <ul>
+                            <li className="AppTitle">
+                                <a href="">FontsPanel</a>
+                            </li>
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+=======
                 <details>
                     <summary> FontsPanel</summary>
                     <p>
@@ -24,26 +35,54 @@ function App() {
                     <Link to="/Font1Tab">
                         <p className="FontTabs">Michroma</p>
                     </Link>
+>>>>>>> main
 
-                    <Link to="/Font2Tab">
-                        <p className="FontTabs">Pushster</p>
-                    </Link>
-                    <Link to="/Font3Tab">
-                        <p className="FontTabs">Orbitron</p>
-                    </Link>
-                    <Link to="/Font4Tab">
-                        <p className="FontTabs">Comfortaa</p>
-                    </Link>
-                    <Link to="/Font5Tab">
-                        <p className="FontTabs">Rajdhani</p>
-                    </Link>
-                    <Link to="/Font6Tab">
-                        <p className="FontTabs">Quicksand</p>
-                    </Link>
-                    <Link to="/Font7Tab">
-                        <p className="FontTabs">Poiret One</p>
-                    </Link>
-                </details>
+                            <li>
+                                <span>
+                                    Fonts <i class="arrow"></i>
+                                </span>
+                                <ul class="dropdown right0">
+                                    <Link to="/Font1Tab">
+                                        <li>
+                                            <a href="#">Michroma</a>
+                                        </li>
+                                    </Link>
+                                    <Link to="/Font2Tab">
+                                        <li>
+                                            <a href="">Pushster</a>
+                                        </li>
+                                    </Link>
+                                    <Link to="/Font3Tab">
+                                        <li>
+                                            <a href="">Orbitron</a>
+                                        </li>
+                                    </Link>
+                                    <Link to="/Font4Tab">
+                                        <li>
+                                            <a href="">Comfortaa</a>
+                                        </li>
+                                    </Link>
+                                    <Link to="/Font5Tab">
+                                        <li>
+                                            <a href="">Rajdhani</a>
+                                        </li>
+                                    </Link>
+                                    <Link to="/Font6Tab">
+                                        <li>
+                                            <a href="">Quicksand</a>
+                                        </li>
+                                    </Link>
+                                    <Link to="/Font7Tab">
+                                        <li>
+                                            <a href="">Poiret One</a>
+                                        </li>
+                                    </Link>
+                                    <li></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
                 <Routes>
                     <Route path="/HomePage" element={<HomePage />} />

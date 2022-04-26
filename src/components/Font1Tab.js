@@ -7,12 +7,12 @@ export default class Font1Tab extends React.Component {
                 <h1 className="mainFont">Michroma</h1>
 
                 <p className="fontDesc">
-                    About Michroma: cies lobortis. Mauris leo ante, blandit sit
-                    amet malesuada quis, ultrices eu ex. Vestibulum vestibulum
-                    ligula nunc, quis faucibus neque molestie eget. Cras gravida
-                    semper hendrerit. Praesent ac metus in est cursus ultricies.
-                    Cras eu pulvinar lectus, eu molestie mauris. In imperdiet,
-                    tellus vel consequat commo
+                    <strong>About Michroma:</strong> cies lobortis. Mauris leo
+                    ante, blandit sit amet malesuada quis, ultrices eu ex.
+                    Vestibulum vestibulum ligula nunc, quis faucibus neque
+                    molestie eget. Cras gravida semper hendrerit. Praesent ac
+                    metus in est cursus ultricies. Cras eu pulvinar lectus, eu
+                    molestie mauris. In imperdiet, tellus vel consequat commo
                 </p>
                 <hr />
 
