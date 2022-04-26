@@ -16,27 +16,17 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
-<<<<<<< HEAD
                 <div id="menuDiv">
                     <div id="mainMenu">
                         <ul>
                             <li className="AppTitle">
                                 <a href="">FontsPanel</a>
                             </li>
-                            <li>
+                            
+                            <li className="AppTitle">
                                 <a href="">Home</a>
                             </li>
-=======
-                <details>
-                    <summary> FontsPanel</summary>
-                    <p>
-                        <strong>Home</strong>
-                    </p>
-                    <Link to="/Font1Tab">
-                        <p className="FontTabs">Michroma</p>
-                    </Link>
->>>>>>> main
-
+                            
                             <li>
                                 <span>
                                     Fonts <i class="arrow"></i>
