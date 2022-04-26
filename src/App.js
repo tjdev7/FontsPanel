@@ -16,6 +16,7 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
+<<<<<<< HEAD
                 <div id="menuDiv">
                     <div id="mainMenu">
                         <ul>
@@ -25,6 +26,16 @@ function App() {
                             <li>
                                 <a href="">Home</a>
                             </li>
+=======
+                <details>
+                    <summary> FontsPanel</summary>
+                    <p>
+                        <strong>Home</strong>
+                    </p>
+                    <Link to="/Font1Tab">
+                        <p className="FontTabs">Michroma</p>
+                    </Link>
+>>>>>>> main
 
                             <li>
                                 <span>
