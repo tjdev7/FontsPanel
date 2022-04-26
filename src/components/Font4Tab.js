@@ -7,16 +7,16 @@ export default class Font4Tab extends React.Component {
                 <h1 className="mainFont">Comfortaa</h1>
 
                 <p className="fontDesc">
-                    About Comfortaa: ut convallis ipsum imperdiet. Aenean
-                    aliquam sem laoreet magna luctus ultrices. Vestibulum eu
-                    lectus eu orci mollis auctor. Nam egestas sodales commodo.
-                    Suspendisse laoreet nunc in iaculis feugiat. In id ultricies
-                    dui. Vivamus nec nunc fermentum mauris feugiat laoreet. Nam
-                    vulputate orci condimentum, tincidunt est nec, lobortis
-                    nulla. Donec euismod gravida lacus, sollicitudin porttitor
-                    lorem maximus sit amet. Duis a cursus neque, vitae lobortis
-                    sapien. Nunc dictum enim orci, ultricies tempor massa
-                    maximus ut.
+                    <strong>About Comfortaa:</strong> ut convallis ipsum
+                    imperdiet. Aenean aliquam sem laoreet magna luctus ultrices.
+                    Vestibulum eu lectus eu orci mollis auctor. Nam egestas
+                    sodales commodo. Suspendisse laoreet nunc in iaculis
+                    feugiat. In id ultricies dui. Vivamus nec nunc fermentum
+                    mauris feugiat laoreet. Nam vulputate orci condimentum,
+                    tincidunt est nec, lobortis nulla. Donec euismod gravida
+                    lacus, sollicitudin porttitor lorem maximus sit amet. Duis a
+                    cursus neque, vitae lobortis sapien. Nunc dictum enim orci,
+                    ultricies tempor massa maximus ut.
                 </p>
 
                 <hr />
