@@ -27,9 +27,16 @@ a:link {
     text-decoration: none;
 }
 
+.FontTabs,
+a:link {
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
 details {
     background-color: #3a3a3a;
-    /* height: 50rem; */
+    height: 500%;
     width: 18%;
     z-index: auto;
     float: left;
