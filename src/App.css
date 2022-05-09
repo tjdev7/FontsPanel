@@ -142,6 +142,10 @@ p {
     font-size: 1.8rem;
 }
 
+.AppTitle {
+    pointer-events: none;
+}
+
 #mainMenu {
     width: auto;
     display: block;
@@ -371,4 +375,5 @@ body {
 #menuDiv {
     text-align: center;
     padding: 30px 8px;
+    border-bottom: 3px solid #000000;
 }

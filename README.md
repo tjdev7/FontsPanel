@@ -1,4 +1,4 @@
-![App logo](./public/img/fontspanel_logo.png)
+![App logo](./public/img/fontspanel_logo.svg)
 
 # FontsPanel
 

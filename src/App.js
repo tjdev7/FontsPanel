@@ -22,16 +22,17 @@ function App() {
                             <li className="AppTitle">
                                 <a href="">FontsPanel</a>
                             </li>
-                            
-                            <li className="AppTitle">
-                                <a href="">Home</a>
-                            </li>
-                            
+
                             <li>
                                 <span>
                                     Fonts <i class="arrow"></i>
                                 </span>
                                 <ul class="dropdown right0">
+                                    <Link to="/Homepage">
+                                        <li>
+                                            <a href="">Home</a>
+                                        </li>
+                                    </Link>
                                     <Link to="/Font1Tab">
                                         <li>
                                             <a href="#">Michroma</a>
