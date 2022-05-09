@@ -28,7 +28,7 @@ Small React app showcasing fonts I regularly use for projects and apps. Fully re
 ### Completed app tasks:
 
 - [x] Include CircleCI and Travis-CI inside project
-- [x] Improve U.I. design for app
+- [x] Improve UI design for app
 - [x] Update menu and make app responsive on majority of user platforms and devices
 - [x] Add testing scripts for each component
 
