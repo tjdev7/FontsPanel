@@ -1,13 +1,13 @@
 {
   "name": "fontspanel",
   "homepage": "https://toughee.github.io/FontsPanel/",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^14.1.1",
-    "gh-pages": "^3.2.3",
+    "@testing-library/user-event": "^14.2.0",
+    "gh-pages": "^4.0.0",
     "npm-upgrade": "^3.1.0",
     "prettier": "^2.6.2",
     "react": "^18.1.0",
