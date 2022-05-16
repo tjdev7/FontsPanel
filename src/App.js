@@ -33,6 +33,11 @@ function App() {
                                             <a href="">Home</a>
                                         </li>
                                     </Link>
+
+                                        <li>
+                                            <a href="https://github.com/Toughee/FontsPanel" target="_blank">README</a>
+                                        </li>
+
                                     <Link to="/Font1Tab">
                                         <li>
                                             <a href="#">Michroma</a>
