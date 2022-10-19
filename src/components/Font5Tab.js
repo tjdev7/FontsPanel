@@ -7,15 +7,14 @@ export default class Font5Tab extends React.Component {
                 <h1 className="mainFont">Rajdhani</h1>
 
                 <p className="fontDesc">
-                    <strong>About Rajdhani:</strong> semper rhoncus ligula
-                    sagittis nec. Pellentesque habitant morbi tristique senectus
-                    et netus et malesuada fames ac turpis egestas. Nam vel
-                    sollicitudin erat, eget iaculis elit. Nam nec leo vel lectus
-                    malesuada malesuada. Integer auctor semper tempor. In
-                    tincidunt, tellus sed bibendum fermentum, eros tellus
-                    maximus mi, ut maximus diam urna vel ristique senectus et
-                    netus et malesuada fames ac turpis egestas. Aenean volutpat
-                    enim
+                    Semper rhoncus ligula sagittis nec. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac
+                    turpis egestas. Nam vel sollicitudin erat, eget iaculis
+                    elit. Nam nec leo vel lectus malesuada malesuada. Integer
+                    auctor semper tempor. In tincidunt, tellus sed bibendum
+                    fermentum, eros tellus maximus mi, ut maximus diam urna vel
+                    ristique senectus et netus et malesuada fames ac turpis
+                    egestas. Aenean volutpat enim
                 </p>
 
                 <hr />

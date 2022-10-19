@@ -34,9 +34,14 @@ function App() {
                                         </li>
                                     </Link>
 
-                                        <li>
-                                            <a href="https://github.com/Toughee/FontsPanel" target="_blank">README</a>
-                                        </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/Toughee/FontsPanel"
+                                            target="_blank"
+                                        >
+                                            README
+                                        </a>
+                                    </li>
 
                                     <Link to="/Font1Tab">
                                         <li>
@@ -45,7 +50,7 @@ function App() {
                                     </Link>
                                     <Link to="/Font2Tab">
                                         <li>
-                                            <a href="">Pushster</a>
+                                            <a href="">Kdam Thmor Pro</a>
                                         </li>
                                     </Link>
                                     <Link to="/Font3Tab">

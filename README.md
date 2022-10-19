@@ -12,6 +12,13 @@ Small React app showcasing fonts I regularly use for projects and apps. Fully re
 
 ### Tablet display
 ![Splash page](./public/img/fontspanel_splash_tablet.png)
+
+  - [How to use:](#how-to-use)
+  - [Testing tools used for app:](#testing-tools-used-for-app)
+    - [Future app goals:](#future-app-goals)
+    - [Completed tasks:](#completed-tasks)
+
+
 ## How to use:
 
 1. Clone repo into desired directory `git clone https://github.com/Toughee/FontsPanel.git` or `gh repo clone Toughee/FontsPanel`

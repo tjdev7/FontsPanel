@@ -4,19 +4,18 @@ export default class Font2Tab extends React.Component {
     render() {
         return (
             <div className="fontsContainer Font2Tab">
-                <h1 className="mainFont">Pushster</h1>
+                <h1 className="mainFont">Kdam Thmor Pro</h1>
 
                 <p className="fontDesc">
-                    <strong>About Pushster:</strong> us neque eget. Cras gravida
-                    semper hendrerit. Praesent ac metus in est cursus ultricies.
-                    Cras eu pulvinar lectus, eu molestie mauris. In imperdiet,
-                    tellus vel consequat commodo, metus ante ullamcorper libero,
-                    in faucibus diam odio in urna. Praesent nec nunc id risus
-                    tristique ullamcorper. Integer nisi magna, vulputate
-                    ullamcorper massa quis, pretium semper erat. Cras a neque
-                    turpis. Nam efficitur nulla nec velit tempus, vitae feugiat
-                    erat porta. Pellentesque a est fermentum, tempus enim at,
-                    dictum dui.
+                    Neque eget. Cras gravida semper hendrerit. Praesent ac metus
+                    in est cursus ultricies. Cras eu pulvinar lectus, eu
+                    molestie mauris. In imperdiet, tellus vel consequat commodo,
+                    metus ante ullamcorper libero, in faucibus diam odio in
+                    urna. Praesent nec nunc id risus tristique ullamcorper.
+                    Integer nisi magna, vulputate ullamcorper massa quis,
+                    pretium semper erat. Cras a neque turpis. Nam efficitur
+                    nulla nec velit tempus, vitae feugiat erat porta.
+                    Pellentesque a est fermentum, tempus enim at, dictum dui.
                 </p>
 
                 <hr />
