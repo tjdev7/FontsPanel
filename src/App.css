@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron&family=Pacifico&family=Poiret+One&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Fascinate&family=Kdam+Thmor+Pro&display=swap');
 
 li {
     font-size: 2rem;
@@ -66,9 +67,9 @@ strong {
 }
 
 .Font2Tab {
-    background-color: #e22babc4;
+    background-color: #870ba3c4;
     color: #ffffff;
-    font-family: 'Pushster', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .Font3Tab {

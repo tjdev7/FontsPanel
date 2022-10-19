@@ -7,17 +7,17 @@ export default class Font7Tab extends React.Component {
                 <h1 className="mainFont">Poiret One</h1>
 
                 <p className="fontDesc">
-                    <strong>About Poiret One:</strong> erat, eget iaculis elit.
-                    Nam nec leo vel lectus malesuada malesuada. Integer auctor
-                    semper tempor. In tincidunt, tellus sed bibendum fermentum,
-                    eros tellus maximus mi, ut maximus diam urna vel purus. Duis
-                    fringilla sem vel nisl dapibus, a egestas magna gravida.
-                    Morbi sit amet tincidunt dui. Quisque id dapibus nulla. In
-                    diam augue, efficitur a pretium at, blandit rutrum magna.
-                    Sed sodales ligula metus. Etiam sit amet rutrum libero, quis
-                    maximus ante. Pellentesque habitant morbi tristique senectus
-                    et netus et malesuada fames ac turpis egestas. Aenean
-                    volutpat enim a arcu tempus. Donec vel
+                    Erat, eget iaculis elit. Nam nec leo vel lectus malesuada
+                    malesuada. Integer auctor semper tempor. In tincidunt,
+                    tellus sed bibendum fermentum, eros tellus maximus mi, ut
+                    maximus diam urna vel purus. Duis fringilla sem vel nisl
+                    dapibus, a egestas magna gravida. Morbi sit amet tincidunt
+                    dui. Quisque id dapibus nulla. In diam augue, efficitur a
+                    pretium at, blandit rutrum magna. Sed sodales ligula metus.
+                    Etiam sit amet rutrum libero, quis maximus ante.
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Aenean volutpat enim a
+                    arcu tempus. Donec vel
                 </p>
 
                 <hr />
