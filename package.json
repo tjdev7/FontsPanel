@@ -1,7 +1,7 @@
 {
   "name": "fontspanel",
-  "homepage": "https://toughee.github.io/FontsPanel/",
-  "version": "4.1.3",
+  "homepage": "https://tjdev7.github.io/FontsPanel/",
+  "version": "4.1.4",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,7 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
-    "react-router-dom": "^6.4.2",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "^5.0.1",
     "web-vitals": "^3.0.4"
   },
@@ -29,6 +29,10 @@
     "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
     "fullpr": "git add .&&git commit&&git push&&git merge",
     "audits": "yarn install&&npm-update-all&&npm install react-scripts@latest&&npm audit&&npm audit fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjdev7/FontsPanel.git"
   },
   "eslintConfig": {
     "extends": [
@@ -47,26 +51,30 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
+    "author": "tjdev7",
     "License": "MIT"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@babel/preset-env": "^7.19.4",
-    "babel-loader": "^8.2.5",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
     "css-loader": "^6.7.1",
     "exports-loader": "^4.0.0",
     "html-loader": "^4.2.0",
     "imports-loader": "^4.0.1",
     "mini-css-extract-plugin": "2.6.1",
     "node-loader": "^2.0.0",
-    "node-sass": "^7.0.3",
-    "sass-loader": "^13.1.0",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
     "typescript": "^4.8.4",
-    "webpack": "^5.74.0",
+    "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0"
   },
   "resolutions": {
     "mini-css-extract-plugin": "2.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/tjdev7/FontsPanel/issues"
   }
 }
