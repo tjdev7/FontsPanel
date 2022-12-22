@@ -1,7 +1,7 @@
 {
   "name": "fontspanel",
   "homepage": "https://tjdev7.github.io/FontsPanel/",
-  "version": "4.1.4",
+  "version": "4.1.5",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -28,7 +28,7 @@
     "cleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
     "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
     "fullpr": "git add .&&git commit&&git push&&git merge",
-    "audits": "yarn install&&npm-update-all&&npm install react-scripts@latest&&npm audit&&npm audit fix"
+    "fullaudits": "yarn install&&yarn upgrade&&npm install&&npm-upgrade&&npm-upgrade&&npm install react-scripts@latest&&npx browserslist@latest --update-db&&npm audit --fix&&yarn audit&&npm audit&&npm outdated"
   },
   "repository": {
     "type": "git",
@@ -59,6 +59,7 @@
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.1",
+    "cypress": "^12.2.0",
     "exports-loader": "^4.0.0",
     "html-loader": "^4.2.0",
     "imports-loader": "^4.0.1",

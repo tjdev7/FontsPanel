@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 import HomePage from './components/HomePage'
 
@@ -104,4 +104,4 @@ function App() {
     )
 }
 
-export default App
+export default App;
