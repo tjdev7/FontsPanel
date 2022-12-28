@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "rctests": "react-scripts test",
+    "test": "react-scripts test",
     "jesttests": "jest",
     "cy": "npx cypress open",
     "eject": "react-scripts eject",

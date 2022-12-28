@@ -15,6 +15,7 @@ Small React app showcasing fonts I regularly use for projects and apps. Fully re
 1. Clone repo into desired directory `git clone https://github.com/tjdev7/FontsPanel.git` or `gh repo clone tjdev7/FontsPanel`
 2. Run `npm install` in your terminal to install all app node modules, yarn packages and dependencies
 3. Run `yarn start` or `npm start` in your preferred terminal app to run the app on a local server
+<!-- 4. Run `npm run dev` in your terminal to run development mode -->
 
 ## Testing tools used for app:
 
@@ -26,7 +27,7 @@ Small React app showcasing fonts I regularly use for projects and apps. Fully re
 
 ```npm run linterclean``` to run Prettier tests
 ```npm run jesttests``` to run Jest tests
-```npm run rctests``` to run local React-scripts tests
+```npm run test``` to run local React-scripts tests
 ```npm run litereport``` to run local Lighthouse tests
 ```npm run fullaudits``` to update local components and review if any packages are outdated
 
