@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 export default class Font6Tab extends React.Component {
     render() {
         return (

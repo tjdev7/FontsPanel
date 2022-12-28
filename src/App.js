@@ -1,4 +1,6 @@
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import * as React from 'react'
+
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
 import HomePage from './components/HomePage'
 
@@ -25,9 +27,9 @@ function App() {
 
                             <li>
                                 <span>
-                                    Fonts <i class="arrow"></i>
+                                    Fonts <i className="arrow"></i>
                                 </span>
-                                <ul class="dropdown right0">
+                                <ul className="dropdown right0">
                                     <Link to="/Homepage">
                                         <li>
                                             <a href="">Home</a>
@@ -37,7 +39,8 @@ function App() {
                                     <li>
                                         <a
                                             href="https://github.com/Toughee/FontsPanel"
-                                            target="_blank"
+                                            target="_blank "
+                                            rel="noopener noreferrer"
                                         >
                                             README
                                         </a>
@@ -104,4 +107,4 @@ function App() {
     )
 }
 
-export default App;
+export default App
