@@ -25,11 +25,11 @@ Small React app showcasing fonts I regularly use for projects and apps. Fully re
 
 ### Running automated tests:
 
-```npm run linterclean``` to run Prettier tests
-```npm run jesttests``` to run Jest tests
-```npm run test``` to run local React-scripts tests
-```npm run litereport``` to run local Lighthouse tests
-```npm run fullaudits``` to update local components and review if any packages are outdated
+- ```npm run linterclean``` to run Prettier tests
+- ```npm run jesttests``` to run Jest tests
+- ```npm run test``` to run local React-scripts tests
+- ```npm run litereport``` to run local Lighthouse tests
+- ```npm run fullaudits``` to update local components and review if any packages are outdated
 
 ### Completed app tasks:
 
